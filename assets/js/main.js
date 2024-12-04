@@ -17,10 +17,7 @@
             if (entry.isIntersecting && entry.target.closest('#resume-section') === null) {
                 // Only scroll if the user action has been triggered, and it's not the resume section
                 if (userActionTriggered) {
-                    entry.target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'center', // Can be 'start', 'center', or 'end'
-                    });
+                    entry.target.style.animation = 'highlight 900ms 1 ease-out';
                 }
 
                 // Trigger re-animation by removing and adding a class
