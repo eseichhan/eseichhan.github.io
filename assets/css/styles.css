@@ -68,7 +68,7 @@ svg,img { max-width: 100%; height: auto; }
 }
   
   .logo a:hover {
-	color: #ff944c;
+	color: #F57E2F;
 	transition: all 0.5s ease;
   }
 
@@ -83,7 +83,7 @@ svg,img { max-width: 100%; height: auto; }
 }
 
 .section {
-	color: #ff944c;
+	color: #F57E2F;
 	font-weight: 600;
 	font-size: 1.125rem;
 	text-align: center;
@@ -107,12 +107,12 @@ svg,img { max-width: 100%; height: auto; }
 ----------------------------------------------------------------*/
 .banner{ margin-bottom: 8.125rem }
 .banner-hed{ font-size: 5.3125rem; line-height:5rem  }
-.image-shadow{box-shadow:30px 30px #ff944c;}
+.image-shadow{box-shadow:30px 30px #F57E2F;}
 
 .social{ list-style: none; display: flex; align-items: center;margin-top: 2.5rem }
 .social li{ margin-right: 15px }
 .social li:alst-child{ margin-right: 0 }
-.social a{ width: 30px; height: 30px; background-color: #ff944c; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#ffffff }
+.social a{ width: 30px; height: 30px; background-color: #F57E2F; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#ffffff }
 .social li:hover a{background-color: #000; color:#ffffff;	transition: all 0.5s ease;}
 
 .banner figure{width: 370px; position: relative;}
@@ -124,17 +124,17 @@ svg,img { max-width: 100%; height: auto; }
 
 .projects-section{padding: 7.5rem 0 }
 .projects-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width:40%;margin: 0}
-.projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #ff944c; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
+.projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #F57E2F; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
 .projects-section h3:hover{color:#000; transition: all 0.5s;}
 
 .projects-listing-section{ margin-top:5rem }
 .projects-loop figure{ margin-right: 60px; position: relative; }
-.projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #ff944c;}
-.link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #ff944c; display: block; justify-content: center; align-items: center; color: #ffffff; font-size: 1.125rem; text-align: center; opacity: 0 }
+.projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #F57E2F;}
+.link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #F57E2F; display: block; justify-content: center; align-items: center; color: #ffffff; font-size: 1.125rem; text-align: center; opacity: 0 }
 .projects-loop:hover .link-button{ opacity: 1 }
 .link-button:hover{background-color: #000; color:#ffffff;	transition: all 0.5s ease;}
 .projects-loop section{ margin-top: 5.875rem; margin-bottom: 5.875rem; }
-.projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #ff944c;}
+.projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #F57E2F;}
 .projects-loop section span{font-size: 1rem; font-weight: 400; }
 
 .project-tile {opacity: 0;
@@ -146,7 +146,7 @@ svg,img { max-width: 100%; height: auto; }
 		transform: translateY(0);
 	  }
 
-.email-section{padding: 7.5rem 0; background-color: #ff944c; text-align: center;}
+.email-section{padding: 7.5rem 0; background-color: #F57E2F; text-align: center;}
 .email-section h2{ font-size: 3.75rem;color: #ffffff; margin-bottom: 1.875rem }
 .email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: none;  }
 .email-section h2:hover{color:#000;	transition: all 0.5s ease;}
@@ -176,7 +176,7 @@ svg,img { max-width: 100%; height: auto; }
 	.banner .container{ position: relative; padding-bottom: 90px }
 	.social{ position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
 	.banner figure{ width: 90%; margin: 0 auto; margin-top: 40px }
-	.image-shadow {box-shadow:20px 20px #ff944c;}
+	.image-shadow {box-shadow:20px 20px #F57E2F;}
 	.banner {margin-bottom: 3.5rem;}
 	.resume-section,.projects-section,.email-section{ padding: 3.5rem 0 }
 	.resume-section h2,.projects-section h2{ max-width: 100% }
@@ -204,8 +204,8 @@ svg,img { max-width: 100%; height: auto; }
 }
 
 mark {
-    --color1: #ff944c;
-    --color2: #ff944c;
+    --color1: #F57E2F;
+    --color2: #F57E2F;
     --height: 75%;
     all: unset;
     background-image: linear-gradient(var(--color1), var(--color2));
